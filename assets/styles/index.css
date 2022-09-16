@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-left h1 {
+  text-transform: uppercase;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
