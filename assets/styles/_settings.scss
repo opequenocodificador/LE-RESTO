@@ -3,3 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  background: rgb(33, 33, 33);;
+}
+
+@font-face {
+  font-family: "font-1";
+  src: url(/assets/fonts/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "font-2";
+  src: url(/assets/fonts/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "font-3";
+  src: url(/assets/fonts/Roboto-Light.ttf);
+}
+
+$color1:rgb(254, 254, 254);
+$color2:rgb(243 243 243);
+$color3:rgb(158, 103, 0);
+$color4:rgb(9, 9, 9);

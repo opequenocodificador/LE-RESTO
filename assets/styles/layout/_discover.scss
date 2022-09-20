@@ -1,0 +1,72 @@
+.discover {
+  background: white;
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  .our-store {
+    text-align: center;
+  }
+  
+  .our-store-container {
+    background: white;
+    margin: 0 auto;
+    border: 1px solid $color3;
+    border-style: dashed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+
+    h3 {
+      color: $color3;
+      font-family: "font-1";
+      font-weight: 100;
+      font-size: 2rem;
+    }
+    h4 {
+      color: $color4;
+      font-family: "font-2";
+      text-transform: uppercase;
+      font-weight: 800;
+      margin-top: -12px;
+    }
+    img {
+      margin-top: 25px;
+    }
+
+    p {
+      margin-top: 30px;
+      font-family: "font-3";
+      font-weight: 300;
+    }
+    .chef-cook-img {
+      background-color: rgb(245, 245, 245);
+      border: none;
+      padding: 10px;
+      border-radius: 50%;
+      margin-top: 30px;
+    }
+
+    h6 {
+      color: $color4;
+      font-family: "font-2";
+      font-size: 1.2rem;
+      font-weight: 100;
+    }
+
+  
+  }
+
+  .discover-img {
+    background: url(/assets/img/store-01.jpg) center/cover;
+    height: auto;
+  }
+  h5 {
+    color: rgb(131, 129, 129);
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}

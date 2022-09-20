@@ -1,0 +1,56 @@
+.Main-menu{
+  background: url(/assets/img/bg-menu-01.jpg) center/cover;
+  height: 800px;
+  position: relative;
+} 
+
+.menu {
+  position: absolute;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  .menu01 {
+    background: $color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px underline dotted ;
+  }
+  .menu02 {
+   background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px underline dotted ;
+  }
+  .menu03 {
+    background: red;
+    display: flex;
+  }
+  div:nth-child(4) {
+    background: yellowgreen;
+    display: flex;
+    justify-content: center;
+  }
+  div:nth-child(5) {
+    background: violet;
+    display: flex;
+    justify-content: center;
+  }
+  div:nth-child(6) {
+    background: maroon;
+    display: flex;
+    justify-content: center;
+  }
+  div:nth-child(7) {
+    background: blue;
+    display: flex;
+    justify-content: center;
+  }
+  div:nth-child(8) {
+    background: black;
+    display: flex;
+    justify-content: center;
+  }
+}

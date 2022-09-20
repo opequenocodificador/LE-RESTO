@@ -1,0 +1,36 @@
+
+  .choice-of-dinner {
+    background: rgb(33, 33, 33);
+    text-align: center;
+    height: 350px;
+    
+  
+    h3 {
+      color: $color3;
+      font-family: "font-1";
+      font-weight: 100;
+      font-size: 2rem;
+    
+    }
+  
+    img{
+     margin-top: 20px;
+    }
+  
+    ul{
+      color: $color1;
+      font-size: "font-1";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+    }
+  
+    li{
+      margin-top: 20px;
+      padding: 50px;
+      color: $color2;
+      text-decoration: underline;
+      text-underline-offset: 10px;
+  }
+}

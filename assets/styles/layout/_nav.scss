@@ -1,6 +1,82 @@
-.nav-left{
-    h1{
+.section-1 {
+  background: url(/assets/img/bg-slider-06.jpg) center/cover;
+  height: 100vh;
+  margin: 0 auto;
+
+  nav {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-content: center;
+    grid-template-areas: "left center right";
+    align-items: center;
+
+    div:nth-child(1) {
+        color: $color1;
+        font-family: "font-1";
+        font-size: 4rem;
+        grid-area: left;
+        display: flex;
+        justify-content: center;
+      }
+
+      div:nth-child(2) {
+        color: $color1;
+        font-family: "font-3";
         text-transform: uppercase;
-        color: white;
+        grid-area: center;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1rem;
+        list-style: none;
     }
+      }
+
+      div:nth-child(3) {
+        color: $color1;
+        font-family: "font-1";
+        grid-area: right;
+        display: flex;
+       justify-content: left;
+       align-items: center;
+
+    i{padding: 20px;}
+      }
+
+}
+.title{
+    margin: 0 auto;
+    margin-top: 190px;
+    text-align: center; 
+    
+    h3{
+        color:$color3;
+        font-family: "font-1";
+        font-size: 5rem;
+    }
+    
+    h1{
+        color: $color1;
+        text-transform: uppercase;
+        font-family: "font-2";
+        font-size: 4rem;
+        letter-spacing: 15px;
+        margin-top: -45px;
+    }
+
+    img{
+        margin-top: 50px;
+    }
+    
+    h4{
+        color: $color2;
+        text-transform: uppercase;
+        font-family: "font-3";
+        font-style: italic;
+        letter-spacing: 5px;
+        margin-top: 50px;
+        font-weight: 500;
+    }
+}
 }
