@@ -473,12 +473,13 @@ body {
 .reservation {
   max-width: 1200px;
   margin: 0 auto;
-  height: 500px;
+  height: 600px;
   margin-top: 40px;
   background: rgb(33, 33, 33);
   display: grid;
   justify-items: stretch;
   grid-template-columns: 25% 85%;
+  /*******************FORM**********************************/
 }
 .reservation .open {
   background: black;
@@ -489,13 +490,97 @@ body {
 .reservation .open h3 {
   color: rgb(158, 103, 0);
   font-family: "font-1";
+  font-size: 1.5rem;
+  margin-top: 40px;
 }
 .reservation .open h4 {
   color: rgb(254, 254, 254);
+  font-family: "font-2";
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: -10px;
+  text-align: center;
+}
+.reservation .open .img {
+  margin-top: 20px;
+}
+.reservation .open h5 {
+  color: rgb(158, 103, 0);
+  font-family: "font-2";
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.reservation .open h6 {
+  color: rgb(254, 254, 254);
+  font-family: "font-3";
+  font-weight: 100;
+}
+.reservation .open-container {
+  border: 1px solid rgb(243, 243, 243);
+  border-style: dashed;
+  margin: 20px 20px 20px 20px;
 }
 .reservation .online-booking {
   background: white;
   display: block;
   align-items: center;
   text-align: center;
+}
+.reservation .online-booking h3 {
+  color: rgb(158, 103, 0);
+  font-family: "font-1";
+  font-size: 4rem;
+  font-weight: 100;
+  margin-top: 60px;
+}
+.reservation .online-booking h4 {
+  color: rgb(9, 9, 9);
+  font-family: "font-2";
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-top: -25px;
+}
+.reservation .img {
+  margin-top: 20px;
+}
+.reservation .form-container {
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;*/
+}
+.reservation .form-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+}
+.reservation .form-up select {
+  width: 150px;
+  border: none;
+}
+.reservation .form-up input {
+  width: 150px;
+  border: none;
+}
+.reservation .form {
+  border-bottom: 1px solid rgba(95, 95, 95, 0.402);
+  padding-bottom: 10px;
+}
+.reservation .form-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 30px;
+}
+.reservation .form-down input {
+  width: 150px;
+  border: none;
+}
+.reservation .form {
+  border-bottom: 1px solid rgba(95, 95, 95, 0.402);
+  padding-bottom: 10px;
 }/*# sourceMappingURL=index.css.map */

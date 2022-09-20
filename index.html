@@ -176,27 +176,74 @@
 
     <section class="reservation">
       <div class="open">
-        <h3>Time</h3>
-        <h4>open</h4>
-        <img
-          src="/assets/img/ic-plate.png"
-          alt="image fourchette et cuillère"
-        />
-        <h5>monday - friday</h5>
-        <h6>7AM-11AM (Breakfast)</h6>
-        <h6>11AM-10PM (Lunch/Dinner)</h6>
-        <h5>saturday / sunday</h5>
-        <h6>8AM-1PM (Brunch)</h6>
-        <h6>1PM-9PM (Lunch/Dinner)</h6>
-        <h5>+15 890 979 25 52</h5>
+        <div class="open-container">
+          <h3>Time</h3>
+          <h4>open</h4>
+          <div class="img">
+            <img
+              src="/assets/img/ic-plate.png"
+              alt="image fourchette et cuillère"
+            />
+          </div>
+          <h5>monday - friday</h5>
+          <h6>7AM-11AM (Breakfast)</h6>
+          <h6>11AM-10PM (Lunch/Dinner)</h6>
+          <h5>saturday / sunday</h5>
+          <h6>8AM-1PM (Brunch)</h6>
+          <h6>1PM-9PM (Lunch/Dinner)</h6>
+          <h5>+15 890 979 25 52</h5>
+        </div>
       </div>
+
       <div class="online-booking">
         <h3>Reservation</h3>
         <h4>online booking</h4>
-        <img
-          src="/assets/img/ic-plate.png"
-          alt="image fourchette et cuillère"
-        />
+        <div class="img">
+          <img
+            src="/assets/img/ic-plate.png"
+            alt="image fourchette et cuillère"
+          />
+        </div>
+
+        <div class="form-container">
+          <div class="form-up">
+            <div class="form">
+              <label for="People">People</label>
+              <select id="People">
+                <option value="hidden"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+              </select>
+            </div>
+            <div class="form">
+              <input type="date" />
+            </div>
+            <div class="form">
+              <input type="time" />
+            </div>
+          </div>
+
+          <div class="form-down">
+            <div class="form">
+              <input type="text" id="name" placeholder="Name" />
+            </div>
+            <div class="form">
+              <input type="text" id="phone" placeholder="Phone" />
+            </div>
+            <div class="form">
+              <input type="text" id="email" placeholder="Email" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>
