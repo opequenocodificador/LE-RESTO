@@ -1,0 +1,34 @@
+.reservation{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 500px;
+    margin-top: 40px;
+    background: rgb(33, 33, 33);
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: 25% 85%;
+    
+
+
+.open{
+    background: black;
+    display: block;
+    align-items: center;
+    text-align: center;
+    h3{
+        color: $color3;
+        font-family: "font-1";
+    }
+    h4{
+        color: $color1;
+        
+    }
+}
+
+.online-booking{
+    background: white;
+    display: block;
+    align-items: center;
+    text-align: center;  
+}
+}

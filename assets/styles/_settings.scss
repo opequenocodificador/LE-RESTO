@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  background: rgb(33, 33, 33);;
+body {
+  background: rgb(33, 33, 33);
 }
 
 @font-face {
@@ -21,7 +21,44 @@ body{
   src: url(/assets/fonts/Roboto-Light.ttf);
 }
 
-$color1:rgb(254, 254, 254);
-$color2:rgb(243 243 243);
-$color3:rgb(158, 103, 0);
-$color4:rgb(9, 9, 9);
+$color1: rgb(254, 254, 254);
+$color2: rgb(243 243 243);
+$color3: rgb(158, 103, 0);
+$color4: rgb(9, 9, 9);
+
+@mixin template-menu {
+  background: $color1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    border-bottom: dashed 1px black;
+    padding: 20px;
+    bottom: 10px;
+  }
+
+  img {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  h4 {
+    text-transform: uppercase;
+    font-family: "font-2";
+    font-weight: 100;
+  }
+  h5 {
+    font-family: "font-3";
+    font-weight: 300;
+  }
+
+  .price {
+    color: $color3;
+  }
+}

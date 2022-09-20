@@ -195,51 +195,307 @@ body {
 
 .menu {
   position: absolute;
-  height: 1000px;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin-top: -100px;
+  transform: translateY(-50%);
+  transform: translateX(50%);
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 170px 170px 170px 170px;
 }
-.menu .menu01 {
+.menu .menu-01 {
   background: rgb(254, 254, 254);
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-evenly;
-  border-bottom: 1px underline dotted;
+  position: relative;
+  border-top: 5px solid rgb(158, 103, 0);
 }
-.menu .menu02 {
-  background: yellow;
+.menu .menu-01::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-01 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-01 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-01 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-01 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-02 {
+  background: rgb(254, 254, 254);
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: space-evenly;
-  border-bottom: 1px underline dotted;
+  position: relative;
+  border-top: 5px solid rgb(158, 103, 0);
 }
-.menu .menu03 {
-  background: red;
+.menu .menu-02::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-02 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-02 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-02 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-02 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-03 {
+  background: rgb(254, 254, 254);
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
-.menu div:nth-child(4) {
-  background: yellowgreen;
+.menu .menu-03::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-03 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-03 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-03 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-03 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-04 {
+  background: rgb(254, 254, 254);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
-.menu div:nth-child(5) {
-  background: violet;
+.menu .menu-04::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-04 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-04 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-04 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-04 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-05 {
+  background: rgb(254, 254, 254);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
-.menu div:nth-child(6) {
-  background: maroon;
+.menu .menu-05::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-05 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-05 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-05 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-05 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-06 {
+  background: rgb(254, 254, 254);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
-.menu div:nth-child(7) {
-  background: blue;
+.menu .menu-06::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-06 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-06 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-06 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-06 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-07 {
+  background: rgb(254, 254, 254);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
 }
-.menu div:nth-child(8) {
+.menu .menu-07::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-07 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-07 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-07 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-07 .price {
+  color: rgb(158, 103, 0);
+}
+.menu .menu-08 {
+  background: rgb(254, 254, 254);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.menu .menu-08::before {
+  content: "";
+  position: absolute;
+  width: 85%;
+  border-bottom: dashed 1px black;
+  padding: 20px;
+  bottom: 10px;
+}
+.menu .menu-08 img {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 25px;
+}
+.menu .menu-08 h4 {
+  text-transform: uppercase;
+  font-family: "font-2";
+  font-weight: 100;
+}
+.menu .menu-08 h5 {
+  font-family: "font-3";
+  font-weight: 300;
+}
+.menu .menu-08 .price {
+  color: rgb(158, 103, 0);
+}
+
+.reservation {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: 40px;
+  background: rgb(33, 33, 33);
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: 25% 85%;
+}
+.reservation .open {
   background: black;
-  display: flex;
-  justify-content: center;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.reservation .open h3 {
+  color: rgb(158, 103, 0);
+  font-family: "font-1";
+}
+.reservation .open h4 {
+  color: rgb(254, 254, 254);
+}
+.reservation .online-booking {
+  background: white;
+  display: block;
+  align-items: center;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
