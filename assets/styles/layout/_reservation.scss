@@ -1,12 +1,12 @@
 .reservation {
   max-width: 1200px;
   margin: 0 auto;
-  height: 600px;
+  height: 550px;
   margin-top: 40px;
   background: rgb(33, 33, 33);
   display: grid;
   justify-items: stretch;
-  grid-template-columns: 25% 85%;
+  grid-template-columns: 30% 70%;
 
   .open {
     background: black;
@@ -17,13 +17,14 @@
     h3 {
       color: $color3;
       font-family: "font-1";
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       margin-top: 40px;
     }
 
     h4 {
       color: $color1;
       font-family: "font-2";
+      font-size: 1.2rem;
       text-transform: uppercase;
       letter-spacing: 2px;
       margin-top: -10px;
@@ -37,14 +38,16 @@
     h5 {
       color: $color3;
       font-family: "font-2";
+      font-size: 1.5rem;
       text-transform: uppercase;
       margin-top: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
     h6 {
       color: $color1;
       font-family: "font-3";
+      font-size: 1rem;
       font-weight: 100;
     }
   }
@@ -86,51 +89,53 @@
   /*******************FORM**********************************/
 
   .form-container{
-    /*display: grid;
+   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;*/
-   
-  }
-  .form-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
-    margin-top: 50px;
-
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 10px;    
+ 
     select{
-        width: 150px;
+      width: 200px;
         border: none;
 
     }
 
     input{
-        width: 150px;
+        width: 200px;
         border: none;
     }
-  }
 
- .form{
-    border-bottom: 1px solid rgba(95, 95, 95, 0.402);
+  .form{
+    border-bottom: 1px solid gray;
+    margin-top: 50px;
     padding-bottom: 10px;
- }
-
- .form-down {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
+  }
+  button{
+    background: rgb(33, 33, 33);
+    color: $color1;
+    font-family: "font-2";
+    border-radius: 20px;
     margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
 
-    input{
-        width: 150px;
-        border: none;
+    &:hover{
+      width: 300px;
+      height: 50px;
     }
   }
 
- .form{
-    border-bottom: 1px solid rgba(95, 95, 95, 0.402);
-    padding-bottom: 10px;
- }
-}
+
+  }
+  }
+
+
+
+    
+  
+
+
 

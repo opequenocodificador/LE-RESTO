@@ -6,6 +6,7 @@
 
 body {
   background: rgb(33, 33, 33);
+  width: auto;
 }
 
 @font-face {
@@ -148,7 +149,6 @@ body {
 }
 .discover .discover-img {
   background: url(/assets/img/store-01.jpg) center/cover;
-  height: auto;
 }
 .discover h5 {
   color: rgb(131, 129, 129);
@@ -189,19 +189,18 @@ body {
 
 .Main-menu {
   background: url(/assets/img/bg-menu-01.jpg) center/cover;
-  height: 800px;
+  height: 100vh;
   position: relative;
 }
 
 .menu {
   position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: -100px;
   display: grid;
   justify-content: center;
-  margin-top: -100px;
-  transform: translateY(-50%);
-  transform: translateX(50%);
   grid-template-columns: 500px 500px;
-  grid-template-rows: 170px 170px 170px 170px;
 }
 .menu .menu-01 {
   background: rgb(254, 254, 254);
@@ -473,12 +472,12 @@ body {
 .reservation {
   max-width: 1200px;
   margin: 0 auto;
-  height: 600px;
+  height: 550px;
   margin-top: 40px;
   background: rgb(33, 33, 33);
   display: grid;
   justify-items: stretch;
-  grid-template-columns: 25% 85%;
+  grid-template-columns: 30% 70%;
   /*******************FORM**********************************/
 }
 .reservation .open {
@@ -490,12 +489,13 @@ body {
 .reservation .open h3 {
   color: rgb(158, 103, 0);
   font-family: "font-1";
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin-top: 40px;
 }
 .reservation .open h4 {
   color: rgb(254, 254, 254);
   font-family: "font-2";
+  font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: -10px;
@@ -507,13 +507,15 @@ body {
 .reservation .open h5 {
   color: rgb(158, 103, 0);
   font-family: "font-2";
+  font-size: 1.5rem;
   text-transform: uppercase;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .reservation .open h6 {
   color: rgb(254, 254, 254);
   font-family: "font-3";
+  font-size: 1rem;
   font-weight: 100;
 }
 .reservation .open-container {
@@ -546,41 +548,37 @@ body {
   margin-top: 20px;
 }
 .reservation .form-container {
-  /*display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;*/
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  margin-top: 10px;
 }
-.reservation .form-up {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
+.reservation .form-container select {
+  width: 200px;
+  border: none;
+}
+.reservation .form-container input {
+  width: 200px;
+  border: none;
+}
+.reservation .form-container .form {
+  border-bottom: 1px solid gray;
   margin-top: 50px;
-}
-.reservation .form-up select {
-  width: 150px;
-  border: none;
-}
-.reservation .form-up input {
-  width: 150px;
-  border: none;
-}
-.reservation .form {
-  border-bottom: 1px solid rgba(95, 95, 95, 0.402);
   padding-bottom: 10px;
 }
-.reservation .form-down {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 70px;
+.reservation .form-container button {
+  background: rgb(33, 33, 33);
+  color: rgb(254, 254, 254);
+  font-family: "font-2";
+  border-radius: 20px;
   margin-top: 30px;
-}
-.reservation .form-down input {
-  width: 150px;
+  width: 200px;
+  height: 30px;
   border: none;
+  cursor: pointer;
 }
-.reservation .form {
-  border-bottom: 1px solid rgba(95, 95, 95, 0.402);
-  padding-bottom: 10px;
+.reservation .form-container button:hover {
+  width: 300px;
+  height: 50px;
 }/*# sourceMappingURL=index.css.map */
