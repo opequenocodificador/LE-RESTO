@@ -1,0 +1,60 @@
+
+
+.img-ceo {
+  img {
+    position: absolute;
+    margin: 0 auto;
+    margin-top: -50px;
+   
+    /****image ronde*****/
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    /********image ronde ********/
+  }
+}
+
+.message-container {
+    position: relative;
+  background: $color1;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 180px;
+  max-width: 1100px;
+  height: 400px;
+ 
+
+  p {
+    line-height: 30px;
+    padding-top: 120px;
+    color: $color4;
+    font-family: "font-3";
+    font-weight: 100;
+  }
+
+  h3 {
+    margin-top: 35px;
+    color: $color4;
+    font-family: "font-3";
+    font-weight: 600;
+  }
+
+  h4 {
+    margin-top: 15px;
+    color: $color3;
+    font-family: "font-3";
+    font-weight: 400;
+  }
+}
+
+/*.ceo-img {
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding: 10px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -80px;
+    margin: 0 auto;    
+  }*/

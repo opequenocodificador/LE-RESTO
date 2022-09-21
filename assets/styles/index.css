@@ -660,20 +660,16 @@ body {
   width: 50%;
   position: relative;
 }
-.calendar .event01 .back01 #square01 {
-  position: absolute;
-  justify-content: center;
-  left: 50%;
-  transform: translateX -50%;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 30%;
+.calendar .event01 .back01 #square {
+  height: 70px;
+  width: 70px;
   background: rgb(33, 33, 33);
-}
-.calendar .event01 .back01 #square01:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
 }
 .calendar .event02 {
   grid-area: eve02;
@@ -719,6 +715,18 @@ body {
   background: url(/assets/img/event-02.jpg) center/cover;
   background-repeat: no-repeat;
   width: 50%;
+  position: relative;
+}
+.calendar .event02 .back02 #square {
+  height: 70px;
+  width: 70px;
+  background: rgb(33, 33, 33);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
 }
 .calendar .event03 {
   grid-area: eve03;
@@ -791,4 +799,56 @@ body {
 
 .ticket h5 {
   margin-top: 80px;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.img-ceo img {
+  position: absolute;
+  margin: 0 auto;
+  margin-top: -50px;
+  /****image ronde*****/
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-radius: 50%;
+  height: 100px;
+  /********image ronde ********/
+}
+
+.message-container {
+  position: relative;
+  background: rgb(254, 254, 254);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 180px;
+  max-width: 1100px;
+  height: 400px;
+}
+.message-container p {
+  line-height: 30px;
+  padding-top: 120px;
+  color: rgb(9, 9, 9);
+  font-family: "font-3";
+  font-weight: 100;
+}
+.message-container h3 {
+  margin-top: 35px;
+  color: rgb(9, 9, 9);
+  font-family: "font-3";
+  font-weight: 600;
+}
+.message-container h4 {
+  margin-top: 15px;
+  color: rgb(158, 103, 0);
+  font-family: "font-3";
+  font-weight: 400;
+}
+
+/*.ceo-img {
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding: 10px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -80px;
+    margin: 0 auto;    
+  }*//*# sourceMappingURL=index.css.map */
