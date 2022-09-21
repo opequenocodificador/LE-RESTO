@@ -38,12 +38,42 @@
     grid-area: eve01;
     display: flex;
     @include config-event;
+
+    .back01 {
+      background: url(/assets/img/event-01.jpg) center/cover;
+      background-repeat: no-repeat;
+      width: 50%;
+      position: relative;
+
+      #square01 {
+        position: absolute;
+        justify-content: center;
+        left: 50%;
+        transform: translateX (-50%);
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30%;
+        background: rgb(33, 33, 33);
+      }
+
+      #square01:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+      }
+    }
   }
 
   .event02 {
     grid-area: eve02;
     display: flex;
     @include config-event;
+
+    .back02 {
+      background: url(/assets/img/event-02.jpg) center/cover;
+      background-repeat: no-repeat;
+      width: 50%;
+    }
   }
 
   .event03 {
@@ -53,11 +83,11 @@
 
   .event03-container {
     margin: 0 auto;
-    padding: 10px;
     text-align: center;
-    height: 350px;
-    width: 350px;
+    height: 340px;
+    width: 340px;
     background: $color1;
+    margin-top: 20px;
 
     h4 {
       margin-top: 30px;
@@ -94,14 +124,14 @@
     }
   }
 
-  #square01 {
+  #square03 {
     position: relative;
     width: 25%;
     background: rgb(33, 33, 33);
     margin: 0 auto;
   }
 
-  #square01:after {
+  #square03:after {
     content: "";
     display: block;
     padding-bottom: 100%;
@@ -123,10 +153,9 @@
       font-weight: 600;
     }
   }
+}
+.ticket {
+  h5 {
+    margin-top: 80px;
   }
-  .ticket{
-    h5{
-      margin-top: 80px;
-    }
-  
 }

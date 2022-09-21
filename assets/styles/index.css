@@ -654,6 +654,27 @@ body {
   color: rgba(155, 155, 155, 0.494);
   font-size: 1rem;
 }
+.calendar .event01 .back01 {
+  background: url(/assets/img/event-01.jpg) center/cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  position: relative;
+}
+.calendar .event01 .back01 #square01 {
+  position: absolute;
+  justify-content: center;
+  left: 50%;
+  transform: translateX -50%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30%;
+  background: rgb(33, 33, 33);
+}
+.calendar .event01 .back01 #square01:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
 .calendar .event02 {
   grid-area: eve02;
   display: flex;
@@ -694,17 +715,22 @@ body {
   color: rgba(155, 155, 155, 0.494);
   font-size: 1rem;
 }
+.calendar .event02 .back02 {
+  background: url(/assets/img/event-02.jpg) center/cover;
+  background-repeat: no-repeat;
+  width: 50%;
+}
 .calendar .event03 {
   grid-area: eve03;
   background: url(/assets/img/event-03.jpg);
 }
 .calendar .event03-container {
   margin: 0 auto;
-  padding: 10px;
   text-align: center;
-  height: 350px;
-  width: 350px;
+  height: 340px;
+  width: 340px;
   background: rgb(254, 254, 254);
+  margin-top: 20px;
 }
 .calendar .event03-container h4 {
   margin-top: 30px;
@@ -736,13 +762,13 @@ body {
   font-size: 0.85rem;
   text-transform: uppercase;
 }
-.calendar #square01 {
+.calendar #square03 {
   position: relative;
   width: 25%;
   background: rgb(33, 33, 33);
   margin: 0 auto;
 }
-.calendar #square01:after {
+.calendar #square03:after {
   content: "";
   display: block;
   padding-bottom: 100%;
