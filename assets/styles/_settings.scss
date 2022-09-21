@@ -63,3 +63,48 @@ $color4: rgb(9, 9, 9);
     color: $color3;
   }
 }
+
+@mixin config-event {
+  .description{
+    background: $color1;
+    width: 100%;
+    h4{
+      color: $color4;
+      font-weight: 500;
+      word-spacing: 3px;
+      font-size: 1.2rem;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+
+    h5{
+      color: $color4;
+      font-weight: 100 bold;
+      word-spacing: 3px;
+      font-size: 0.8rem;
+      margin-top: 20px;
+      margin-left: 20px;
+      text-transform: uppercase;
+
+    }
+    .location-hours-time{
+      display: flex;
+      margin: 0 auto;
+      text-align: center;
+      gap: 15px;
+      margin-top: 20px;
+      margin-left: 20px;
+
+      i {
+        color: rgba(155, 155, 155, 0.888);
+      }
+      h6 {
+        color: rgba(155, 155, 155, 0.494);
+        font-size: 1rem;
+      }
+      
+    }
+    
+  }
+  
+}
