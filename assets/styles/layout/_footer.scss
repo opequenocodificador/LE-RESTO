@@ -58,7 +58,14 @@ margin-left: 55px;
 
     .follow{
         display: flex;
+        align-items: center;
         margin-top: 50px;
+
+        i{
+          color: rgb(124, 124, 124);
+          padding: 30px;
+        }
+      
     }
   }
 }
