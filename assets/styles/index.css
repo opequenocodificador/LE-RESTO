@@ -563,7 +563,7 @@ body {
   border: none;
 }
 .reservation .form-container .form {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(124, 124, 124);
   margin-top: 50px;
   padding-bottom: 10px;
 }
@@ -820,7 +820,7 @@ body {
   margin: 0 auto;
   margin-top: 180px;
   max-width: 1100px;
-  height: 400px;
+  height: 350px;
 }
 .message-container p {
   line-height: 30px;
@@ -842,13 +842,79 @@ body {
   font-weight: 400;
 }
 
-/*.ceo-img {
+footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  width: 100%;
+  background: url(/assets/img/bg-footer.jpg) center/cover;
+  height: auto;
+  margin-top: 450px;
+  overflow: hidden;
+}
+footer .footer-left {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-left: 350px;
+}
+footer .footer-left h4 {
+  color: rgb(158, 103, 0);
+  font-family: "font-1";
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+footer .footer-left p {
+  margin-top: 10px;
+  color: rgb(162, 162, 162);
+  font-family: "font-3";
+  font-weight: 100;
+  max-width: 55%;
+  line-height: 25px;
+}
+footer .footer-right {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  margin-left: 55px;
+}
+footer .footer-right h3 {
+  color: rgb(254, 254, 254);
+  text-transform: uppercase;
+  font-family: "font-3";
+}
+footer .footer-right input {
+  color: rgb(124, 124, 124);
+  background: none;
+  margin-top: 15px;
+  border: 1px solid rgb(124, 124, 124);
+  padding: 5px 40px;
+  cursor: pointer;
+}
+footer .footer-right input::-moz-placeholder {
+  color: rgb(124, 124, 124);
+}
+footer .footer-right input:-ms-input-placeholder {
+  color: rgb(124, 124, 124);
+}
+footer .footer-right input::placeholder {
+  color: rgb(124, 124, 124);
+}
+footer .footer-right .follow {
+  display: flex;
+  margin-top: 50px;
+}
+
+/*.message-container{
+    position: relative;
+    z-index: 0;
+}
+
+.bg-map{
+    background: url(/assets/img/gmap.jpg)center/cover;
+    height: 450px;
+    width: 100%;
     position: absolute;
-    background-color: rgb(245, 245, 245);
-    border: none;
-    padding: 10px;
-    height: 100px;
-    border-radius: 50%;
-    margin-top: -80px;
-    margin: 0 auto;    
+    z-index: 1;
+    margin-top: -50px;
   }*//*# sourceMappingURL=index.css.map */

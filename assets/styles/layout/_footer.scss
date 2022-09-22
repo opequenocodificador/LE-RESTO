@@ -1,0 +1,64 @@
+footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  width: 100%;
+  background: url(/assets/img/bg-footer.jpg) center/cover;
+  height: auto;
+  margin-top: 450px;
+  overflow: hidden;
+
+  .footer-left {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;  
+   margin-left: 350px;
+    
+    h4 {
+      color: $color3;
+      font-family: "font-1";
+      font-weight: 100;
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin-top: 10px;
+      color: rgb(162, 162, 162);
+      font-family: "font-3";
+      font-weight: 100;
+      max-width: 55%;
+      line-height: 25px;
+    }
+  }
+
+  .footer-right{
+    width: 100%;
+    margin-top: 80px;
+margin-bottom: 60px;  
+margin-left: 55px;
+
+    h3{
+        color: $color1;
+        text-transform: uppercase;
+        font-family: "font-3";
+    }
+
+    input{
+        color:rgb(124, 124, 124);
+        background: none;
+        margin-top: 15px;
+        border:  1px solid rgb(124, 124, 124);
+        padding: 5px 40px;
+        cursor: pointer;
+    &::placeholder{
+        color:rgb(124, 124, 124);
+    }
+
+    }
+
+    .follow{
+        display: flex;
+        margin-top: 50px;
+    }
+  }
+}
