@@ -558,6 +558,9 @@ body {
   width: 200px;
   border: none;
 }
+.reservation .form-container label {
+  color: transparent;
+}
 .reservation .form-container input {
   width: 200px;
   border: none;
@@ -922,4 +925,10 @@ footer .footer-right .follow i {
   position: absolute;
   z-index: -1;
   margin-top: -90px;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    background: blue;
+  }
 }/*# sourceMappingURL=index.css.map */
