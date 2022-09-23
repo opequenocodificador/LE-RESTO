@@ -5,15 +5,15 @@ footer {
   width: 100%;
   background: url(/assets/img/bg-footer.jpg) center/cover;
   height: auto;
-  margin-top: 450px;
+  margin-top: 360px;
   overflow: hidden;
 
   .footer-left {
     width: 100%;
-    margin-top: 80px;
-    margin-bottom: 60px;  
-   margin-left: 350px;
-    
+    margin-top: 0px;
+    margin-bottom: 60px;
+    margin-left: 350px;
+
     h4 {
       color: $color3;
       font-family: "font-1";
@@ -31,41 +31,39 @@ footer {
     }
   }
 
-  .footer-right{
+  .footer-right {
     width: 100%;
     margin-top: 80px;
-margin-bottom: 60px;  
-margin-left: 55px;
+    margin-bottom: 60px;
+    margin-left: 55px;
 
-    h3{
-        color: $color1;
-        text-transform: uppercase;
-        font-family: "font-3";
+    h3 {
+      color: $color1;
+      text-transform: uppercase;
+      font-family: "font-3";
     }
 
-    input{
-        color:rgb(124, 124, 124);
-        background: none;
-        margin-top: 15px;
-        border:  1px solid rgb(124, 124, 124);
-        padding: 5px 40px;
-        cursor: pointer;
-    &::placeholder{
-        color:rgb(124, 124, 124);
+    input {
+      color: rgb(124, 124, 124);
+      background: none;
+      margin-top: 15px;
+      border: 1px solid rgb(124, 124, 124);
+      padding: 5px 40px;
+      cursor: pointer;
+      &::placeholder {
+        color: rgb(124, 124, 124);
+      }
     }
 
-    }
+    .follow {
+      display: flex;
+      align-items: center;
+      margin-top: 50px;
 
-    .follow{
-        display: flex;
-        align-items: center;
-        margin-top: 50px;
-
-        i{
-          color: rgb(124, 124, 124);
-          padding: 30px;
-        }
-      
+      i {
+        color: rgb(124, 124, 124);
+        padding: 30px;
+      }
     }
   }
 }
