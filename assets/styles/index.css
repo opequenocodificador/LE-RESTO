@@ -927,8 +927,240 @@ footer .footer-right .follow i {
   margin-top: -90px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 600px) {
   body {
-    background: blue;
+    background: rgb(33, 33, 33);
+    max-width: 600px;
+  }
+  /**********NAV****************/
+  nav ul {
+    display: none;
+    visibility: hidden;
+  }
+  nav div {
+    margin-top: 20px;
+  }
+  nav i {
+    margin-left: -80px;
+  }
+  /**********TITLE****************/
+  .title {
+    display: inline-block;
+  }
+  .title h3 {
+    font-weight: 100;
+    font-size: 0.2rem;
+    margin-top: -100px;
+    line-height: 180px;
+  }
+  .title h1 {
+    font-size: 0.5rem;
+  }
+  .title h4 {
+    width: 60%;
+    margin: 0 auto;
+  }
+  /**********DISCOVER****************/
+  .discover {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .discover .discover-img {
+    display: none;
+    visibility: hidden;
+  }
+  /**********CHOICE OF DINNER****************/
+  .choice-of-dinner {
+    height: 900px;
+  }
+  .menu-container {
+    overflow: hidden;
+    position: relative;
+  }
+  .menu-container ul {
+    color: rgb(254, 254, 254);
+    font-size: "font-1";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .menu-container li {
+    margin-top: 20px;
+    padding: 30px;
+    color: rgb(243, 243, 243);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+  /**********MENU****************/
+  .Main-menu {
+    background: url(/assets/img/bg-menu-01.jpg) center/cover;
+    height: 620px;
+    position: relative;
+  }
+  .menu {
+    left: 50%;
+    transform: translateX -50%;
+    top: -15%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+  }
+  .menu .menu-01 {
+    background: rgb(254, 254, 254);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-top: 5px solid rgb(158, 103, 0);
+  }
+  .menu .menu-01::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    border-bottom: dashed 1px black;
+    padding: 20px;
+    bottom: 10px;
+  }
+  .menu .menu-01 img {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .menu .menu-01 h4 {
+    text-transform: uppercase;
+    font-family: "font-2";
+    font-weight: 100;
+  }
+  .menu .menu-01 h5 {
+    font-family: "font-3";
+    font-weight: 300;
+  }
+  .menu .menu-01 .price {
+    color: rgb(158, 103, 0);
+  }
+  .menu .menu-02 {
+    background: rgb(254, 254, 254);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    border-top: hidden;
+  }
+  .menu .menu-02::before {
+    content: "";
+    position: absolute;
+    width: 85%;
+    border-bottom: dashed 1px black;
+    padding: 20px;
+    bottom: 10px;
+  }
+  .menu .menu-02 img {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 25px;
+  }
+  .menu .menu-02 h4 {
+    text-transform: uppercase;
+    font-family: "font-2";
+    font-weight: 100;
+  }
+  .menu .menu-02 h5 {
+    font-family: "font-3";
+    font-weight: 300;
+  }
+  .menu .menu-02 .price {
+    color: rgb(158, 103, 0);
+  }
+  /**********RESERVATION****************/
+  .reservation {
+    margin-top: 100px;
+    background: black;
+    display: block;
+  }
+  .reservation .open {
+    margin: 0 auto;
+  }
+  .reservation .open-container {
+    border: 1px solid rgb(243, 243, 243);
+    border-style: dashed;
+    margin: 20px 20px 20px 20px;
+  }
+  .reservation .online-booking {
+    margin-top: -20px;
+  }
+  .reservation .form-container {
+    display: block;
+    margin: 0 auto;
+  }
+  .reservation .form {
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    margin-top: 50px;
+    padding-bottom: 10px;
+    max-width: 40%;
+  }
+  /**********EVENT****************/
+  .event {
+    visibility: hidden;
+  }
+  .calendar {
+    visibility: hidden;
+  }
+  /**********MESSAGE CEO****************/
+  .message-chef {
+    display: block;
+    max-width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 300px;
+  }
+  .message-chef p {
+    max-width: 55%;
+    font-size: 0.8rem;
+    margin: 0 auto;
+  }
+  .message-container {
+    position: relative;
+    z-index: 0;
+    height: 600px;
+    margin-top: 0px;
+  }
+  .message-container img {
+    margin-left: -50px;
+  }
+  /**********BG MAP****************/
+  .bg-map {
+    max-width: 600px;
+    margin: 0 auto;
+    background: url(/assets/img/gmap.jpg) center/cover;
+    position: absolute;
+    z-index: -1;
+    margin-top: -90px;
+    margin-left: -50px;
+  }
+  footer {
+    display: block;
+    background: none;
+  }
+  footer .footer-left {
+    display: none;
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 1400px) {
+  body {
+    background: rgb(33, 33, 33);
+    max-width: auto;
   }
 }/*# sourceMappingURL=index.css.map */
