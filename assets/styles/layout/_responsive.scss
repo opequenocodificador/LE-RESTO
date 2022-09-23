@@ -165,7 +165,7 @@
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    margin-top: 300px;
+    margin-top: 50px;
 
     p {
       max-width: 55%;
@@ -208,9 +208,117 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
-  body {
-    background: rgb(33, 33, 33);
-    max-width: auto;
+/**********RESPONSIVE 1600PX****************/
+
+@media screen and (max-width: 1600px) {
+ 
+
+  .menu{
+  display: block;
+    max-width: 1600px;
+    .menu-02 {
+      border-top: none
+    }
   }
+
+  .reservation {
+    margin-top: 100px;
+    background: black;
+    display: block;
+
+    .open {
+      margin: 0 auto;
+    }
+
+    .open-container {
+      border: 1px solid $color2;
+      border-style: dashed;
+      margin: 20px 20px 20px 20px;
+    }
+
+    .online-booking {
+      margin-top: -20px;
+    }
+
+    .form-container {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .form {
+      margin: 0 auto;
+      border-bottom: 1px solid rgb(124, 124, 124);
+      margin-top: 50px;
+      padding-bottom: 10px;
+      max-width: 40%;
+    }
+  }
+
+  .event-title{
+    margin-top: 800px;
+  }
+
+  .event{
+    display: block;
+    height: 200px;
+  }
+
+  .event01{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+    height: 120px;
+  }
+
+  .event02{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 600px;
+    height: 120px;
+  }
+
+  .event03{
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .event03-container{
+    max-width: 50%;
+  }
+
+  .calendar{
+    display: block;
+  }
+
+
+  .message-container {
+    position: relative;
+    z-index: 0;
+    height: 550px;
+    margin-top: 230px;
+    max-width: 800px;
+
+    p{
+      max-width: 60%;
+      margin: 0 auto;
+    }
+
+    img {
+      margin-left: -50px;
+    }
+  }
+
+  footer {
+    display: block;
+    background: none;
+
+    .footer-left {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+
+
+
 }
